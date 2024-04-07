@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* BODY WORK  */
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5PX 20PX;
+}
+
+/* NAVIGATION SECTION INSIDE THE HEADER */
+.nav_section{
+    display: flex;
+    width: 100%;
+    line-height: 85px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+/* LIST WORK  */
+.nav_section ul{
+    display: flex;
+    gap: 30px;
+    padding-left: 62px;
+    padding-bottom: 40px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+/* ANGUAL TAG WORK  */
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500px;
+}
+
+/* HOVER IN LIST  */
+nav ul li a:hover{
+    color: #5955b3;
+    font-weight: bold;
+    font-size: bolder;
+}
+.buttonr-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.nav_section button{
+    position:fixed;
+    top:15px;
+    left:83%;
+}
+
+/* BUTTON HOVER  */
+button:hover{
+    background-color: #ffffff;
+    color: #5955b3;
+    font-weight: bold;
+    font-size: larger;
+}
+/* button work  */
+button{
+    padding: 14px 28px;
+    background-color: #5955b3;
+    border-color: #5955b3;
+    color: #ffffff;
+    border-radius: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* MAIN SECTION OF THE PAGE  */
+.class_main_section{
+    display: flex;
+    align-items: center;
+}
+
+/* LEFT MAIN SECTION OF THE Page  */
+.left_main_section h1{
+    color: #3c2f60;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.left_main_section h1 span{
+    color: #5955b3;
+}
+
+.left_main_section p{
+    color: #828282;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    margin-top: 28px;
+}
+
+.left_main_section button{
+    margin-top: 28px;
+}
+
+
+/* RIGHT MAIN SECTION OF THE Page  */
+.right_main_section img{
+    height: 500px;
+    width: fit-content;
+    display: flex;
+    justify-items: end;
+}
+
